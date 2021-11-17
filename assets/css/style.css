@@ -346,7 +346,6 @@ p {
   }
 }
 
-
 /* col-md */
 @media screen and (min-width: 768px) {
   .col-md-1 {
@@ -499,5 +498,3 @@ p {
     flex: 0 0 100%;
   }
 }
-
-
