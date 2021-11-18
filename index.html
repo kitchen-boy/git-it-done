@@ -29,7 +29,12 @@
         <button type="submit" class="btn">Get User</button>
           </form>
       </div>
-    <div class="col-12 col-md-8"></div>
+    <div class="col-12 col-md-8">
+      <h2 class="subtitle">Showing Repositories for: <span id="repo-search-term"></span></h2>
+      <!--created <span> element to write search term for whose repos we're looking at-->
+      <div id="repos-container" class="list-group"></div>
+      <!--empty <div> element to write all of repo data to-->
+    </div>
 
   </main>
   <!-- add script at the bottom of the body -->
